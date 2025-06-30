@@ -86,12 +86,14 @@ The main aim is to build a **Linear Regression** model to predict house prices b
 
 ## 📬 Author
 
+## 📬 Connect with Me:
+
 **Tarun Sharma**  
-Machine Learning Intern – Prodigy InfoTech  
-GitHub: [https://github.com/tarun-1-8]  
-LinkedIn: [www.linkedin.com/in/
-tarun-sharma-987a6332b
-]
+B.Tech CSE | K.R. Mangalam University  
+Machine Learning Intern @ Prodigy InfoTech  
+GitHub: [tarun-1-8](https://github.com/tarun-1-8)  
+LinkedIn: [Tarun Sharma](https://www.linkedin.com/in/tarun-sharma-1-8/)
+
 
 ---
 
