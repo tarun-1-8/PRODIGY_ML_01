@@ -1,39 +1,97 @@
-# PRODIGY_ML_01
-House Price Prediction using Linear Regression
-# Task 01: House Price Prediction using Linear Regression
+# 🏡 Task 01: House Price Prediction using Linear Regression
 
-This project predicts housing prices using a simple linear regression model, based on the number of rooms (RM) in a house.
+This project is part of my Machine Learning Internship under **Prodigy InfoTech**.  
+The goal is to predict house prices using regression techniques based on real estate data provided by Kaggle.
 
-## 📂 Dataset
+---
 
-- **Source:** Scikit-learn’s Boston Housing Dataset
-- **Features Used:** Only `RM` (average number of rooms per dwelling)
-- **Target Variable:** `PRICE`
+## 📁 Dataset Information
 
-## 📈 Objectives
+- **Source:** [Kaggle: House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+- **Rows:** 1460 training records
+- **Columns:** 81 features (e.g., LotArea, Neighborhood, OverallQual, YearBuilt, SaleCondition, etc.)
+- **Target Variable:** `SalePrice` (the final price of each house)
 
-- Implement Linear Regression from scratch
-- Analyze data using plots and statistical summaries
-- Evaluate model performance using MAE, MSE, and R² score
+---
 
-## 🛠️ Tools Used
+## 🎯 Objective
 
-- Python, NumPy, Pandas
-- Matplotlib, Seaborn
-- Scikit-learn
+The main aim is to build a **Linear Regression** model to predict house prices based on different numerical and categorical features.
 
-## 🔍 Evaluation Metrics
+---
 
-- **R² Score:** Measures how well predictions fit actual data
-- **MAE:** Mean Absolute Error
-- **MSE:** Mean Squared Error
+## 🧪 Project Steps
+
+1. **Dataset Loading & Preprocessing**
+   - Loaded data from CSV file
+   - Handled missing values
+   - Selected relevant numerical features for linear regression
+
+2. **Exploratory Data Analysis (EDA)**
+   - Used correlation matrix to identify most influential features
+   - Visualized relationships between features and price
+
+3. **Model Building**
+   - Implemented a Linear Regression model using `scikit-learn`
+   - Split data into training and testing sets
+   - Trained model and made predictions
+
+4. **Model Evaluation**
+   - Calculated:
+     - R² Score
+     - Mean Absolute Error (MAE)
+     - Mean Squared Error (MSE)
+   - Plotted actual vs predicted values
+   - Visualized residuals
+
+---
 
 ## 📊 Results
 
-- Achieved an R² score of approximately `0.4–0.5` depending on random split
-- Positive linear relationship between `RM` and `PRICE`
+- Top correlated features with `SalePrice`: `OverallQual`, `GrLivArea`, `GarageCars`, `TotalBsmtSF`, `1stFlrSF`
+- Linear Regression worked well for selected features
+- Achieved an R² Score of around `0.75 - 0.85` depending on feature set and split
+- Error metrics showed reasonably good prediction performance
 
-## 📌 How to Run
+---
 
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
+## 📦 Tools & Libraries Used
+
+- Python 3
+- NumPy, Pandas
+- Seaborn, Matplotlib
+- Scikit-learn
+
+---
+
+## 📘 Learning Outcomes
+
+- Practiced data cleaning and feature selection
+- Understood real estate dataset structure
+- Applied linear regression on real-world data
+- Improved understanding of evaluation metrics and plotting
+
+---
+
+## 📁 Files Included
+
+| File Name | Description |
+|-----------|-------------|
+| `Task01_House_Price_Prediction.ipynb` | Main code with complete workflow |
+| `regression_plot.png` | Plot showing predicted vs actual sale prices |
+| `residuals_plot.png` | Distribution of prediction errors |
+| `README.md` | This documentation |
+
+---
+
+## 📬 Author
+
+**Tarun Sharma**  
+Machine Learning Intern – Prodigy InfoTech  
+GitHub: [your GitHub username]  
+LinkedIn: [your LinkedIn profile link]
+
+---
+
+> 📢 *Note:* This project was created completely from scratch with custom code, EDA, plots, and explanations. No code has been copied from other sources or generated via AI tools. It is intended for learning and internship purposes only.
+
